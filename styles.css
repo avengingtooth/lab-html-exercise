@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    margin: 0px;
+    font-family: 'Poppins';
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    align-self: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+}
+
+nav{
+    width: 600px;
+    float: right;
+}
+
+li{
+    text-align: center;
+}
+
+.topLeftIcon{
+    display: inline-block;
+}
+header > div{
+    border-bottom: 1px solid lightgrey;
+    padding: 0 25px;
+}
+
+.npmLogo{
+    display: flex;
+    margin: 16px;
+    height: 20px;
+    margin-left: 0px;
+}
+
+.magnifyingGlass{
+    margin-left: 16px;
+    margin-right: 16px;
+    height: 20px;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    margin:0px;
+    width:90%;
+}
+
+form{
+    height: 40px;
+    background-color:  rgba(0,0,0,.05);
+    align-items: center;
+    width:100%;
+    display: flex;
+    
+}
+
+input{
+    display: flex;
+    border: 0px;
+    background-color: transparent;
+}
+
+.joinLogIn{
+    display: flex;
+    float: right;
+    width: 10%;
+    justify-content: space-evenly;
+}
+
+.text{
+    width: 80%;
+}
+
+.search{
+    background-color:#fb3e44;
+    height: 40px;
+    width: 80px;
+    color: white;
+    justify-content: center;
+}
+
+.start{
+    width: 100%;
+    display: flex;
+}
+
+.secondRow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.join{
+    text-align: center;
+    justify-content: center;
+    border: 1px solid lightgrey;
+    width: 60px;
+}
+
+h1{
+    text-align:center;
+    width: 100%;
+}
+
+.section3part{
+    display: flex;
+    height: 600px;
+    background-color: rgba(232,217,217,.3);
+    justify-content: center;
+}
+
+.head1{
+    margin: 0px;
+    font-weight: bolder;
+    font-size: 80px;
+    height: fit-content;
+    align-self: center;
+    width: 100%;
+}
+
+article{
+    align-self: center;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: medium;
+    justify-content: center;
+}
+
+.plans{
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.seePlans{
+    background-color: #FB3B49;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    height: 50px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.centerInSec{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+.section2{
+    background-color: white;
+}
+
+.pinkHexagon{
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.artSec2{
+    width: 55%;
+}
+
+.head2{
+    font-size: 35px;
+    transform: skew(9deg,0deg);
+    background-color: rgba(255,204,53,.4);
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    font-style: italic
+}
+
+.iconHolder{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.icon > img{
+    height: 30px;
+}
+
+.icon > h2{
+    color: #ED1C24;
+    font-size: larger;
+}
+
+.icon > p{
+    width: 80%;
+    font-size: small;
+}
+
+.icon{
+    width: 250px;
+}
+
+.createOrg{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 400px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
